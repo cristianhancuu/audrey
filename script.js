@@ -22,9 +22,13 @@ const buttonno= document.getElementById('no');
     buttonYes.style.left = `${randomX}px`;
     buttonYes.style.top = `${randomY}px`;
   });
-  buttonno.addEventListener('click', ()=> {
+  buttonno.addEventListener('touchstart', ()=> {
     buttonYes.style.visibility = 'hidden';
     image.style.display = 'block';
 
-    
+  })
+    buttonno.addEventListener('click', ()=> {
+    buttonYes.style.visibility = 'hidden';
+    image.style.display = 'block';
+
   })

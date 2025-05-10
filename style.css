@@ -91,7 +91,7 @@ button{
   background-color: rgba(255,255,255,0);
 }
 img{
-    width: 20vw;
+    width: 30vh;
     text-align: center;
     margin-top: 5vh;
    display: none;
@@ -99,6 +99,6 @@ img{
    top: 50%; /* Poziționează imaginea la jumătatea înălțimii paginii */
     left: 50%; /* Poziționează imaginea la jumătatea lățimii paginii */
     transform: translate(-50%, -50%); /* Centrează imaginea exact pe ecran */
-    width: 20vw;
+
     z-index: 99999;
 }
